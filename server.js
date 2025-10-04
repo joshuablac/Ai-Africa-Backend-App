@@ -2,6 +2,7 @@ const express = require('express')
 const { admin } = require("./config/firebase");
 require('dotenv').config()
 const Router = require('./router/auth');
+console.log(process.env.FIREBASE_PROJECT_ID)
 console.log(">>>line 4" + Router)
 const cors = require('cors')
 const app = express()

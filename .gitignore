@@ -4,8 +4,7 @@ node_modules/
 # Env files
 .env
 
-#servicekey.json
-serviceKey.json
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
